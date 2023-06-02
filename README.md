@@ -29,7 +29,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -59,6 +58,10 @@ Make simple calculations. Build with React.
 
 - Make simple calculations.
 - Read a random math-related quote.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Comming Soon
+<!-- - [Live Demo Link](https://google.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
