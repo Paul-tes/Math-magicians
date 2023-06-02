@@ -1,18 +1,21 @@
-import React, { Component } from 'react';
+import { React } from 'react';
+import PropTypes from 'prop-types';
 
-class Result extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
+const Result = ({ total, next, operation }) => (
+  <div className="result-container">
+    <input className="result-input" type="text" readOnly value={total || next || operation || 0} />
+  </div>
+);
 
-  render() {
-    return (
-      <div className="result-container">
-        <input className="result-input" type="text" readOnly value={0} />
-      </div>
-    );
-  }
-}
+Result.propTypes = {
+  total: PropTypes.number,
+  operation: PropTypes.string,
+  next: PropTypes.string,
+};
 
+Result.defaultProps = {
+  total: 0,
+  operation: null,
+  next: null,
+};
 export default Result;
