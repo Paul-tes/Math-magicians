@@ -1,29 +1,27 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
-  
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b> Math Magicians</b></h3>
+  <h3><b>Math Magicians</b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -33,22 +31,36 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians project <a name="about-project"></a>
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-Make simple calculations. Build with React.
+# 📖 [Math Magicians] <a name="about-project"></a>
+
+**[Math Magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Build with React.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-1- REACT
-
+- React
+- HTML
+- CSS
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
     <li><a href="http://www.css.com/">CSS</a></li>
     <li><a href="https://react.dev/">React</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>N/A</li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>N/A</li>
   </ul>
 </details>
 
@@ -56,10 +68,15 @@ Make simple calculations. Build with React.
 
 ### Key Features <a name="key-features"></a>
 
-- Make simple calculations.
-- Read a random math-related quote.
+- **[Make simple calculation]**
+- **[Can be worked with big numbers]**
+- **[error can be displayed]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
 - Comming Soon
 <!-- - [Live Demo Link](https://google.com) -->
 
@@ -73,6 +90,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
+In order to run this project you need:
 1. Browser.
 2. Git-smc.
 3. Code Editor.
@@ -83,14 +101,14 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 
-Run this command:
-
 ```bash
   cd my-folder
   git clone https://github.com/ragangithub/math-magicians.git
 ```
 
 ### Install
+
+Install this project with:
 
 Run this command:
 
@@ -103,15 +121,32 @@ Run this command:
 
 To run the project, execute the following command:
 
-Open index.html using live server extension.
+Example command:
+
+```bash
+  npm start
+```
 
 ### Run tests
 
-Coming soon
+To run tests, run the following command:
+
+```bash
+  npm test
+```
 
 ### Deployment
 
-Coming soon
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+ - Commin Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +154,8 @@ Coming soon
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Paul Tesfaye
+
+👤 **Author1**
 
 - GitHub: [@ragangithub](https://github.com/paul-tes)
 - LinkedIn: [ragan-hailu-318640228](https://www.linkedin.com/in/paul-tesfaye-687820215/)
@@ -130,9 +166,9 @@ Coming soon
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add the functionality for the app.
-- [ ] Add the testing using react testing library.
-- [ ] Add the final touches for the styling.
+- [ ] **[Complex Calculations]**
+- [ ] **[Graph plotting]**
+- [ ] **[Resposivenes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +186,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project just give it a star ⭐️.
+If you like this project give me start on my repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +194,10 @@ If you like this project just give it a star ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse Inc.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
