@@ -12,12 +12,35 @@ header h2 {
   text-align: center;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.quote-container {
+  width: 100%;
+  padding: 1rem;
+}
+
+.quote {
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 54px 55px, rgba(0, 0, 0, 0.12) 1px -12px 30px, rgba(0, 0, 0, 0.12) 1px 4px 6px, rgba(0, 0, 0, 0.17) 1px 12px 13px, rgba(0, 0, 0, 0.09) 1px -3px 5px;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.status {
+  margin-top: 17rem;
+  opacity: 0.5;
+}
+
 .calculator-grid {
   display: grid;
-  float: right;
   margin-right: 4rem;
   grid-template-columns: repeat(4, 5.5rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 54px 55px, rgba(0, 0, 0, 0.12) 1px -12px 30px, rgba(0, 0, 0, 0.12) 1px 4px 6px, rgba(0, 0, 0, 0.17) 1px 12px 13px, rgba(0, 0, 0, 0.09) 1px -3px 5px;
 }
 
 .span-2 {
