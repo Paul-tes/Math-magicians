@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Result from './Result';
 import Keys from './keys';
 import calculate from '../logic/calculate';
+import Quote from './Quote';
 
 const Calculator = () => {
   const [result, setResult] = useState({
@@ -23,10 +24,13 @@ const Calculator = () => {
       <header>
         <h2>Lets do some math!</h2>
       </header>
-      <div className="calculator-grid">
-        <Result total={Number(total)} operation={operation} next={next} />
-        <Keys tabCalculator={handleEvent} />
-      </div>
+      <section>
+        <Quote />
+        <div className="calculator-grid">
+          <Result total={Number(total)} operation={operation} next={next} />
+          <Keys tabCalculator={handleEvent} />
+        </div>
+      </section>
     </main>
   );
 };
