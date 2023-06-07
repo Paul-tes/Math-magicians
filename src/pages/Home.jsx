@@ -1,11 +1,12 @@
+import style from '../style/Home.module.css';
+
 const Home = () => (
-  <div className="home">
+  <div className={style.container}>
     <h2>Welcome to our page!</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, alias exercitationem! Est,
       quisquam dolores fuga maxime fugiat exercitationem voluptate voluptatem odio labore magnam
-      aliquid magni
-      incidunt maiores rerum at repellendus.
+      aliquid magni incidunt maiores rerum at repellendus.
     </p>
     <br />
     <p>
