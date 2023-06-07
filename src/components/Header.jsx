@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
+import styles from '../style/Header.module.css';
 
 const Header = () => (
-  <div className="header">
+  <header className={styles.header}>
     <h1>Math Magicians</h1>
     <nav>
       <ul>
@@ -12,7 +13,7 @@ const Header = () => (
         </li>
       </ul>
     </nav>
-  </div>
+  </header>
 );
 
 export default Header;
