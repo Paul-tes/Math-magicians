@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import Result from './Result';
-import Keys from './keys';
+import Result from '../components/Result';
+import Keys from '../components/keys';
 import calculate from '../logic/calculate';
-import Quote from './Quote';
 
 const Calculator = () => {
   const [result, setResult] = useState({
@@ -25,7 +24,6 @@ const Calculator = () => {
         <h2>Lets do some math!</h2>
       </header>
       <section>
-        <Quote />
         <div className="calculator-grid">
           <Result total={Number(total)} operation={operation} next={next} />
           <Keys tabCalculator={handleEvent} />
