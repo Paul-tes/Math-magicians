@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
+import './style/App.css';
 import Calculator from './pages/Calculator';
 import Header from './components/Header';
 import Home from './pages/Home';
