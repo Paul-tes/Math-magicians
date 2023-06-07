@@ -14,7 +14,7 @@ const Quote = () => {
     'forgiveness', 'freedom', 'friendship', 'funny', 'future', 'god', 'good', 'government', 'graduation', 'great', 'happiness',
     'health', 'history', 'home', 'hope', 'humor', 'imagination', 'inspirational', 'intelligence', 'jealousy', 'knowledge',
     'leadership', 'learning', 'legal', 'life', 'love', 'marriage', 'medical', 'men', 'mom', 'money', 'morning', 'movies', 'success'];
-  const index = Math.floor(Math.random() * catagory.length + 1);
+  const index = Math.floor(Math.random() * catagory.length);
   const url = `https://api.api-ninjas.com/v1/quotes?category=${catagory[index]}`;
   const key = '1ZjiiTojrbnI2qvRhVgFQBfsw42MEyghy7v2xadD';
 
@@ -23,16 +23,15 @@ const Quote = () => {
       try {
         setStatus('Loadding....');
         const response = await fetchQuote(url, key);
-        console.log(response);
         setData(response[0]);
         setStatus('Data loaded successfully');
       } catch (error) {
-        setStatus(error);
+        setStatus('Error fetching');
       }
     };
 
     fetchQuoteAsync();
-  }, []);
+  }, [setStatus]);
 
   return (
     <div className="quote-container">
