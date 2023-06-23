@@ -77,7 +77,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://events--joyful-speculoos-478184.netlify.app/)
+- [Live Demo Link](https://math-magiciansv1-0.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
