@@ -1,12 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-
   <h3><b>Math Magicians</b></h3>
-
 </div>
 # 📗 Table of Contents
 
@@ -31,16 +28,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magicians] <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
-**[Math Magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Build with React.
+**Math Magicians** is a website for all mathematics fans. It is a Single Page App (SPA) that allows users to: Make simple calculations. Additionaly the it allow to fetch qutes in real time. Build with React.
 
 ## 🛠 Built With <a name="built-with"></a>
 - React
 - HTML
 - CSS
 ### Tech Stack <a name="tech-stack"></a>
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -49,7 +45,6 @@
     <li><a href="https://react.dev/">React</a></li>
   </ul>
 </details>
-
 <details>
   <summary>Server</summary>
   <ul>
@@ -68,9 +63,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Make simple calculation]**
-- **[Can be worked with big numbers]**
-- **[error can be displayed]**
+- **Make simple calculation**
+- **Allow Large numbers**
+- **Customize error display look**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +83,6 @@
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-
 In order to run this project you need:
 1. Browser.
 2. Git-smc.
@@ -101,8 +95,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```bash
-  cd my-folder
-  git clone https://github.com/ragangithub/math-magicians.git
+  git clone https://github.com/Paul-tes/Math-magicians.git
 ```
 
 ### Install
@@ -112,7 +105,7 @@ Install this project with:
 Run this command:
 
 ```bash
-  cd math-magicians
+  cd Math-magicians
   npm install
 ```
 
@@ -137,24 +130,14 @@ To run tests, run the following command:
 ### Deployment
 
 You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
  - Commin Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Pawlos Tesfaye**
 
 - GitHub: [@ragangithub](https://github.com/paul-tes)
 - LinkedIn: [ragan-hailu-318640228](https://www.linkedin.com/in/paul-tesfaye-687820215/)
@@ -165,9 +148,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Complex Calculations]**
-- [ ] **[Graph plotting]**
-- [ ] **[Resposivenes]**
+- [ ] **Complex Calculations**
+- [ ] **Graph plotting**
+- [ ] **Resposivenes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
